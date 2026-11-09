@@ -18,7 +18,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  /* margin: 10px auto; */
   background-color: #ffffff;
 }
 ul{
@@ -27,7 +26,7 @@ ul{
   padding: 0;
   margin: 0;
   list-style: none;
-} 
+}
 .menu-toggle {
   display: none;
   background: none;
@@ -253,9 +252,9 @@ footer p {
   }
 
   header {
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 20px;
   }
 
   nav {
@@ -288,11 +287,11 @@ footer p {
   .services-container {
     flex-direction: column;
   }
-   .menu-toggle {
-    display: block;
+  .menu-toggle {
+  display: block;
   }
-   .menu-toggle {
-    display: block;
+   .nav-menu {
+    display: none;
   }
 
 }
