@@ -27,29 +27,11 @@ ul{
   margin: 0;
   list-style: none;
 }
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 28px;
-  cursor: pointer;
-}
 
 nav{
   display: flex;
   gap: 20px;
   font-size: large;
-}
-
-.nav-menu {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.nav-menu ul {
-  display: flex;
-  gap: 20px;
 }
 
 nav a {
@@ -269,12 +251,6 @@ footer p {
     padding: 15px 20px;
   }
 
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
   ul {
     flex-wrap: wrap;
     justify-content: center;
@@ -297,22 +273,6 @@ footer p {
 
   .services-container {
     flex-direction: column;
-  }
-  .menu-toggle {
-    display: block;
-  }
-  .nav-menu {
-    display: none;
-    position: absolute;
-    top: 70px;
-    right: 20px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  }
-  .nav-menu.active {
-  display: flex;
   }
 
 }
