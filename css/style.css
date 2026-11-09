@@ -252,9 +252,9 @@ footer p {
   }
 
   ul {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
-    gap: 12px;
+    gap: 8px;
   }
 
   #home,
