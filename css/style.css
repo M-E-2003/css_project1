@@ -40,6 +40,18 @@ nav{
   gap: 20px;
   font-size: large;
 }
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-menu ul {
+  display: flex;
+  gap: 20px;
+}
+
 nav a {
   color: #0f172a;
   font-weight: 500;
@@ -298,6 +310,9 @@ footer p {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
+  }
+  .nav-menu.active {
+  display: flex;
+  }
 
 }
