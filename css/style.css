@@ -257,7 +257,7 @@ footer p {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   width: 100%;
   gap: 15px;
   font-size: 14px;
@@ -265,7 +265,7 @@ footer p {
 
   ul {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-end;
   gap: 12px;
   }
