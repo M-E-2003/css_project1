@@ -246,22 +246,28 @@ footer p {
   }
 
   header {
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
-  }
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 20px;
+ }
 
   nav {
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 100%;
   gap: 15px;
   font-size: 14px;
   }
 
   ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 12px;
   }
 
   #home,
