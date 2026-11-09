@@ -258,10 +258,9 @@ footer p {
   }
 
   nav {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 
   ul {
@@ -288,10 +287,17 @@ footer p {
     flex-direction: column;
   }
   .menu-toggle {
-  display: block;
+    display: block;
   }
-   .nav-menu {
+  .nav-menu {
     display: none;
-  }
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
 
 }
