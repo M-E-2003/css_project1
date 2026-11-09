@@ -59,6 +59,10 @@ a {
   border-radius: 8px;
   transition: 0.3s;
 }
+
+nav a.btn {
+  color: white;
+}
 .btn:hover {
   background-color: #1d4ed8;
   transform: translateY(-2px);
@@ -244,25 +248,37 @@ footer p {
   section {
     padding: 40px 20px;
   }
+
   header {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 10px;
-  gap: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px;
+    gap: 5px;
+  }
+
+  .tec {
+    font-size: 18px;
+    white-space: nowrap;
+    margin: 0;
   }
 
   nav {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
   }
 
-  ul {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 6px;
+  nav ul {
+    gap: 6px;
+    flex-wrap: nowrap;
+  }
+
+  nav .btn {
+    padding: 6px 8px;
+    font-size: 10px;
+    white-space: nowrap;
   }
 
   #home,
@@ -282,5 +298,4 @@ footer p {
   .services-container {
     flex-direction: column;
   }
-
 }
